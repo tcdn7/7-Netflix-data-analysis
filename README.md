@@ -85,18 +85,6 @@ netflix-data-analysis/
 
 ---
 
-## 📈 Sample Outputs
-
-| Visualization | Description |
-|----------------|-------------|
-| ![Type Distribution](figures/type_distribution.png) | Ratio of Movies vs TV Shows |
-| ![Country Heatmap](figures/country_heatmap.png) | Top 10 Countries by Content Type |
-| ![Genre Diversity](figures/genre_diversity.png) | Number of Unique Genres per Year |
-
-*(Optional: add screenshots from your generated figures)*
-
----
-
 ## ⚙️ How to Run Locally
 
 # Clone repository
