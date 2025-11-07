@@ -27,23 +27,22 @@ The project follows a **modular and pythonic structure**, designed for clarity a
 
 ## 🧱 Project Structure
 
-<pre>
+```text
 netflix-data-analysis/
 │
 ├── data/
-│ └── netflix_titles.csv # Raw dataset
-│ └── netflix_titles_cleaned.csv # Cleaned dataset
+│   └── netflix_titles.csv              # Raw dataset
+│   └── netflix_titles_cleaned.csv      # Cleaned dataset
 │
 ├── src/
-│ ├── eda.py # Exploratory data analysis functions
-│ ├── insights.py # Deeper trend and insights analysis
-│ └── init.py # For module import
+│   ├── eda.py                          # Exploratory data analysis functions
+│   ├── insights.py                     # Deeper trend and insights analysis
+│   └── __init__.py                     # For module import
 │
-├── main.py # Data cleaning & preprocessing pipeline
-├── report.py # Consolidated storytelling dashboard
+├── main.py                             # Data cleaning & preprocessing pipeline
+├── report.py                           # Consolidated storytelling dashboard
 ├── .gitignore
 └── README.md
-<pre>
 
 ---
 
@@ -75,21 +74,19 @@ netflix-data-analysis/
 
 ## 🧠 Technologies Used
 
-<pre>
-| Category | Library / Tool |
-|-----------|----------------|
-| Data Manipulation | pandas, numpy |
-| Visualization | matplotlib, seaborn |
-| Project Management | VS Code, GitHub |
-| Version Control | git |
-| Environment | Python 3.11+ |
-<pre>
+| Category           | Library / Tool      |
+| ------------------ | ------------------- |
+| Data Manipulation  | pandas, numpy       |
+| Visualization      | matplotlib, seaborn |
+| Project Management | VS Code, GitHub     |
+| Version Control    | git                 |
+| Environment        | Python 3.11+        |
+
 
 ---
 
 ## 📈 Sample Outputs
 
-<pre>
 | Visualization | Description |
 |----------------|-------------|
 | ![Type Distribution](figures/type_distribution.png) | Ratio of Movies vs TV Shows |
@@ -97,13 +94,11 @@ netflix-data-analysis/
 | ![Genre Diversity](figures/genre_diversity.png) | Number of Unique Genres per Year |
 
 *(Optional: add screenshots from your generated figures)*
-<pre>
 
 ---
 
 ## ⚙️ How to Run Locally
 
-<pre>
 # Clone repository
 git clone https://github.com/tcdn7/7-Netflix-data-analysis.git
 cd netflix-data-analysis
@@ -118,7 +113,6 @@ pip install -r requirements.txt
 # Run cleaning and analysis
 python main.py
 python report.py
-<pre>
 
 ---
 
